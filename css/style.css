@@ -14,3 +14,22 @@
     width: 1000px;
     max-width: 100%;
   }
+
+  /* # HEADER */
+
+ .upper-header{
+    line-height: 80px;
+    background-color: rgb(141, 55, 55);
+  }
+
+  .logo-img{
+    height: 60px;
+    vertical-align: middle;
+  }
+
+  .logo-title{
+    display: inline;
+    vertical-align: middle;
+  }
+
+ 

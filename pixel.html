@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+
 <!--Collegamento file css-->
 
-    <link rel="stylesheet" href="../html-css-toboolist/css/style.css">
+ <link rel="stylesheet" href="../html-css-toboolist/css/style.css">
 
 </head>
 
@@ -14,20 +15,27 @@
 
 <!--Intestazione con logo-->
     <header>
-        <img src="../html-css-toboolist/img/logo copia.png" alt="logo">
-        <h1>Toboolist</h1>
+<!--Contenitore margini-->
+        <div class="container"> 
 
+            <div class="upper-header">
+                <img src="../html-css-toboolist/img/logo copia.png" class="logo-img" alt="logo--">
+                <h1 class="logo-title">Toboolist</h1>
+            </div>
+        </div>
     </header>
 
     <main>
-
+        <div class="container">
         <!--Prima sezione -->
-        <section>
-            intestazione
-        </section>
+            <section>
+                <span>Add Task</span> 
+                <span>Add section</span>
+           
+            </section>
 
         <!--Seconda sezione con tabella-->
-        <section>
+            <section>
                 <li>New Task
                     <ul>
                         <li>Quarterly Newsletter 
@@ -64,10 +72,10 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
-            
-        </section>
-    
+                </ul>
+
+            </section>
+        </div>
     </main>
     
 </body>
